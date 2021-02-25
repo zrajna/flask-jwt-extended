@@ -92,7 +92,7 @@ Callback Function Changes
 API Changes
 ~~~~~~~~~~~
 - All view decorators have been moved to a single decorator:
-    - ``@jwt_required`` is now ``@jwt_required()``
+    - ``@jwt_required`` is now ``@jwt_required()`` - note the parentheses
     - ``@jwt_optional`` is now ``@jwt_required(optional=True)``
     - ``@fresh_jwt_required`` is now ``@jwt_required(fresh=True)``
     - ``@jwt_refresh_token_required`` is now ``@jwt_required(refresh=True)``
